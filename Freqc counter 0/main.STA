@@ -1,0 +1,66 @@
+
+ROM used:   1539/2048 (75%)
+            1539/2048 (75%) including unused fragments
+
+            1.4 Average locations per line
+            10.4 Average locations per statement
+
+RAM used:   20/224 (9%) at main() level
+            45/224 (20%) worst case
+
+Stack used: 5 worst case (5 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  104    48  32  main.c
+  521     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F628A.h
+  456   100  68  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\LCD.C
+----- -----
+ 1081   148 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   1    1             @delay_ms1
+ Inline         3    760  4.5  lcd_read_byte
+0     49   3    2    262  3.7  lcd_read_nibble
+0     46   3    1    399  2.4  lcd_send_nibble
+0     94   6    3    415  3.7  lcd_send_byte
+0     68   4    6    852  6.2  lcd_init
+0     18   1    4    208  6.3  lcd_gotoxy
+0     44   3    1    354  4.7  lcd_putc
+0    349  23   15   1498  7.5  MAIN
+0     19   1    0             @const572
+0     16   1    0             @const573
+0     16   1    0             @const574
+0     18   1    0             @const575
+0     79   5   13             @DIV3232
+0     87   6   12             @PRINTF_L32U_552
+0     22   1    0             @const581
+0     27   2    4             @DTOF
+0    202  13   14             @DIVFF
+ Inline        13             @MULFF
+ Inline         5             @FTOSD
+0    339  22   13             @PRINTF_L32D_552FPFPF
+0     22   1    0             @const595
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               8
+    Statements              148
+    Comments                246
+    Volume (V)              7004
+    Difficulty (D)          36.9
+    Effort to implement (E) 258594
+    Time to implement (T)   3 hours, 59 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   13
+    Maintainability (MI)    125
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1535  509  
+
+
+

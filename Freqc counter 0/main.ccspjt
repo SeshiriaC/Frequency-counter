@@ -1,0 +1,101 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F628A
+CCSVersion=5.049
+Compiler=PCM
+[Target Data]
+FileList=main.c
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+
+[defines]
+buildcount=35
+
+[ProjectLog]
+Days=4
+D1=04-09-2023
+D1_L=1
+D1_L1=[84874]Project Closed.
+D2=05-09-2023
+D2_L=12
+D2_L1=[38981]Project Opened.
+D2_L2=[39003]Started Editing.
+D2_L3=[39310]Stopped Editing.
+TotalEdit=55
+TotalDebug=0
+D2_E=5
+D2_D=0
+D2_L4=[40195]Project Closed.
+D2_L5=[51442]Project Opened.
+D2_L6=[51523]Started Editing.
+D2_L7=[51722]Stopped Editing.
+D2_L8=[51722]Project Closed.
+D2_L9=[55530]Project Opened.
+D2_L10=[62188]Project Closed.
+D2_L11=[62387]Project Opened.
+D2_L12=[63794]Project Closed.
+D3=06-09-2023
+D3_L=16
+D3_L1=[62536]Project Opened.
+D3_L2=[63800]Project Closed.
+D3_L3=[63805]Project Opened.
+D3_L4=[64730]Started Editing.
+D3_L5=[65177]Stopped Editing.
+D3_E=17
+D3_D=0
+D3_L6=[65177]Project Closed.
+D3_L7=[65177]Project Opened.
+D3_L8=[65200]Project Closed.
+D3_L9=[70025]Project Opened.
+D3_L10=[70368]Started Editing.
+D3_L11=[70795]Stopped Editing.
+D3_L12=[73504]Started Editing.
+D3_L13=[74039]Stopped Editing.
+D3_L14=[76700]Started Editing.
+D3_L15=[77165]Stopped Editing.
+D3_L16=[81935]Project Closed.
+D4=07-09-2023
+D4_L=27
+D4_L1=[55512]Project Opened.
+D4_L2=[55512]Project Closed.
+D4_L3=[55513]Project Opened.
+D4_L4=[55867]Started Editing.
+D4_L5=[56177]Stopped Editing.
+D4_L6=[70220]Started Editing.
+D4_L7=[71240]Stopped Editing.
+D4_L8=[71466]Started Editing.
+D4_L9=[71926]Stopped Editing.
+D4_L10=[72140]Started Editing.
+D4_L11=[72625]Stopped Editing.
+D4_L12=[72917]Started Editing.
+D4_L13=[73217]Stopped Editing.
+D4_L14=[73791]Started Editing.
+D4_L15=[74393]Stopped Editing.
+D4_E=33
+D4_D=0
+D4_L16=[74397]Project Closed.
+D4_L17=[74398]Project Opened.
+D4_L18=[74427]Started Editing.
+D4_L19=[74685]Stopped Editing.
+D4_L20=[74685]Project Closed.
+D4_L21=[74695]Project Opened.
+D4_L22=[74695]Project Closed.
+D4_L23=[74696]Project Opened.
+D4_L24=[74774]Project Closed.
+D4_L25=[78742]Project Opened.
+D4_L26=[78769]Started Editing.
+D4_L27=[80997]Stopped Editing.
+
+[Opened Files]
+1=main.c
+t1=13
+Count=1
+2=main.c
+t2=17
+3=..\..\test\test.c
+t3=1
+[Units]
+Count=1
+1=main (main)
